@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args){
 		Sim cellulare = new Sim("3469441602");
 		
-		cellulare.setCredito(10);
+		cellulare.setCredito(0);
 		
 		
 		Chiamata chiamata = new Chiamata ("3398734567" , 8);
